@@ -47,6 +47,16 @@ public class Quiz_Game {
 					JOptionPane.showMessageDialog(null, "You are wrong. Get better! The correct answer was John Adams who was the second president.");
 				}
 				JOptionPane.showMessageDialog(null, "You scored "+score+" out of 5 ");
-			}
+				if(score == 5){
+					JOptionPane.showMessageDialog(null, "That was awesome. You are really smart!");
+				if(score==4){
+					JOptionPane.showMessageDialog(null, "You did pretty well.");
+				if(score<4){
+					JOptionPane.showMessageDialog(null, "Get smarter. You did horrible.");
+				}
+				}
+				}
+				}
+			
 		}
 	
